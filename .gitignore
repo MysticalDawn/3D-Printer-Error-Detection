@@ -1,0 +1,7 @@
+data/
+.git
+.DS_Store
+.vscode
+.env
+dcgm/
+caxton_dataset/
