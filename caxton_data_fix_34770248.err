@@ -1,0 +1,18 @@
+GNU 11.3.0 is now loaded
+Loading module for Python
+Python 3.12.1 is now loaded
+ -----------------------------
+To install additional python libraries/packages (to YOUR $HOME directory), please do the following:
+   mkdir -p $PYTHON_LIBS
+   pip install --prefix=$PYTHON_LIBS <your python_lib name>
+   Example: 
+           pip install --prefix=$PYTHON_LIBS biopython
+ -----------------------------
+
+Loading python/3.12.1
+  Loading requirement: gcc/11.3.0
+Traceback (most recent call last):
+  File "/home/jadhaiza/projects/3D-Printer-Error-Detection/caxton_data_fix.py", line 1, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+/var/spool/slurm/job34770248/slurm_script: line 23: deactivate: command not found
