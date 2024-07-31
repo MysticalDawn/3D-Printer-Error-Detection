@@ -4,3 +4,5 @@ data/
 .vscode
 .env
 dcgm/
+/caxton_dataset
+/image_processing.log
