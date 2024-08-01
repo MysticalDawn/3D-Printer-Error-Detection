@@ -1,3 +1,8 @@
-data
+data/
+.git
+.DS_Store
+.vscode
+.env
+dcgm/
+caxton_dataset/
 nozzle_data
-Auto_ZMJ2N

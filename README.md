@@ -19,7 +19,7 @@
 - **Data Path**: `Auto-ZMJ2N/train`
 
 ### Dataset Overview
-- **Total Images**: 2158
+- **Total Images**: 2,158
 - **Annotations**: Multi-Class Classification format for Void, Overheating, Stringing, and Gaps.
 
 ### Pre-processing Steps
@@ -33,7 +33,6 @@
   - **Saturation**: Between -25% and +25%
   - **Brightness**: Between -25% and +25%
   - **Exposure**: Between -25% and +25%
-
 
 ### Additional Test Data
 - **Title**: 3D Printing Errors Dataset
@@ -56,7 +55,6 @@
 - **Auto-Orientation**: Pixel data auto-oriented with EXIF-orientation stripping.
 - **Image Resize**: Resized to 640x640 pixels (Stretch).
 - **Image Augmentation**: No image augmentation techniques were applied.
-
 
 ### Additional Resource
 - **3D Printing CM**: [Link to Dataset](https://universe.roboflow.com/arizonastateuniversity/3d-printing-cm)
@@ -87,3 +85,10 @@ This dataset contains **1,272,273** labelled images of the extrusion 3D printing
 
 ### Data Collection
 The data was generated on printers running Marlin 1.1.9 firmware and collected on a Python 3 server. Python was also used for sampling parameter combinations and cleaning/filtering the dataset after collection.
+
+## Data Sources
+1. **3D Printer Defected Dataset**
+   - **Link**: [3D Printer Defected Dataset](https://www.kaggle.com/datasets/justin900429/3d-printer-defected-dataset/data)
+
+2. **Early Detection of 3D Printing Issues**
+   - **Link**: [Early Detection of 3D Printing Issues Dataset](https://www.kaggle.com/competitions/early-detection-of-3d-printing-issues/data)
