@@ -6,3 +6,4 @@ data/
 dcgm/
 caxton_dataset/
 nozzle_data
+.ipynb_checkpoints
