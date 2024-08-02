@@ -6,3 +6,8 @@ data/
 dcgm/
 caxton_dataset/
 nozzle_data
+images
+sample_submission.csv
+train.csv
+test.csv
+test-2.csv
